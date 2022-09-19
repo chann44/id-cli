@@ -1,0 +1,43 @@
+Arguments: 
+  /home/chan/.nvm/versions/node/v18.7.0/bin/node /home/chan/.nvm/versions/node/v18.7.0/bin/yarn add @fetch/id
+
+PATH: 
+  /home/chan/.nvm/versions/node/v18.7.0/bin:/home/chan/.cargo/bin:/home/chan/.local/bin:/home/chan/.local/bin:/home/chan/.local/bin:/home/chan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/chan/Android/Sdk/emulator:/home/chan/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.7.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@fetch%2fid: Not found
+      at params.callback [as _callback] (/home/chan/.nvm/versions/node/v18.7.0/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/home/chan/.nvm/versions/node/v18.7.0/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/home/chan/.nvm/versions/node/v18.7.0/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/home/chan/.nvm/versions/node/v18.7.0/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "id-cli",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:chann44/id-cli.git",
+    "author": "vikash <44chansw@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
